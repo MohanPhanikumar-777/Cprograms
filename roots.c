@@ -1,3 +1,4 @@
+
 #include<stdio.h>
 #include<math.h>
 void main()
@@ -5,7 +6,7 @@ void main()
     int a,b,c,d;
     float r1,r2;
     printf("Enter value of a,b,c:");
-    scanf("%d%d%d",&a&b&c);
+    scanf("%d%d%d",&a,&b,&c);
     d=(b*b)-(4*a*c);
     if(d>0)
     {
@@ -13,14 +14,14 @@ void main()
         r2=-b-sqrt(d)/2*a;
         printf("r1=%f,r2=%f",r1,r2);
     }
-    elseif(d<0)
+    else if(d<0)
     {
-        printf("roots are imaginary")
+        printf("roots are imaginary");
     }
     
     else
     {
-    printf("roots are real and equal8");
+    printf("roots are real and equal");
     }
     r1=r2=-b/2 *a;
     {
